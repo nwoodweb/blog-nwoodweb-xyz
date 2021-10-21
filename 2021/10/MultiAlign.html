@@ -1,0 +1,46 @@
+
+
+<body>
+	<h1>Multiple Sequence Alignments (MSA)</h1>
+	<p>Microbiologists often have to compare a given sequence to other sequences, in order to accomplish this, <a href = "https://www.ncbi.nlm.nih.gov/books/NBK464187/ ">Multiple Sequence Alignments are used</a></p>
+		<p>This is often streamlined not only by the fact that computers are uniquely suited for pattern searching and that alignment algorithms have existed since 1977, but also by the fact that sequence data is almost always (exception *.fastq) are stored as flat, POSIX Compliant text files, known as *.fasta files.</p>
+		<p>Each alignment is limited character set known as an <i>alphabet</i>, for nucleotides it is ATCG-U, and for peptides it is the 24 mainstream amino acids.</p>
+		<h2>Features of Interest</h2>
+		<p><i>Consensus Sequences</i> are the most common motifs of a sequence, and are often indicative of classic features such as the START Codon, the <i>Shine Delgarno Sequence</i> or the sequences of common promotor-repressor regions.</p>
+		<p><i>Conserved Sequences</i> are sequences that remain highly similar in an alignment, and are often  </p>
+
+		<h2>Example Alignment of Sonic Hedgehog Genes</h2>
+		<p>Yes, there is a gene called<b>  Sonic Hedgehog </b> (and other strange names such as Myc-Max, Mad-Max, Methuselah, and Tin Man), it plays a crucial role in embryonic development, and is one of the many reasons why you should speak with a medical professional if taking medicines while pregnant.</p>
+		<img style="float:right;width:100px;" src="https://s2.qwant.com/thumbr/0x380/e/3/503f780f09af3ed728cb3aada587f00cf2b1198e1a77d5c650ff85e2c5cedf/Sonic_CG27_Chnl.png?u=http%3A%2F%2Fimages1.wikia.nocookie.net%2F__cb20130504063927%2Fcharacters%2Fimages%2F5%2F59%2FSonic_CG27_Chnl.png&q=0&b=1&p=0&a=0">
+		<p> I gave included the Sonic Hedgehog MSA (MUSCLE) using the following example organisms:</p>
+		<ul>
+			<li><i>Homo sapiens</i></li>
+			<li><i>Gallus gallus</i></li>
+			<li><i>Xenopus laevis</i></li>
+			<li><i>Amblypharyngodon chulabhornae</i></li>
+			<li><i>Danio rerio</i></li>
+			<li><i>Mus musculus</i></li>
+			<li><i>Pantherophis guttatus</i></li>
+
+		</ul>
+		<p>Running the shell command <code> muscle -in foo.fasta -out bar.fasta -maxiters 32</code> will yield the multiple alignment. On my Lenovo Thinkpad X220 (Gentoo Linux OpenRC, i5-2440M, 8Gb DDR3) it took less than 1 second to complete, with 7 sequences, around 400-500 amino acid residues</p>
+		<center>
+		<img src="https://blog.nwoodweb.xyz/2021/10/align.png" width=50% alt="Viewing the MUSCLE Alignment using GNU Less">
+		</center>
+		<p>However, it is rather difficult to make sense of the alignment, it is better to visualize this text file. In this case, we will use the tool <a href="http://doua.prabi.fr/software/seaview">Seaview</a> to gain a better perspective of conserved sequences.</p> 
+		<center>
+			<img src="seaview.png" width=50% alt="Seaview visualization of SHH MSA">
+		</center>
+		<p> As we can see, the sequences are conserved to a considerable extent for the Sonic Hedgehog Gene. However, special notice should be given to both <i>A.chulabhornae</i> and <i>P. guttatus</i>, which contain the most variation and gaps of the 7 sequences. <i>A.chulabhornae</i>, is a tropical fish, much like <i>D.rerio</i> though its number of gaps seems striking. </p>
+		<p><i>P.guttatus</i> a species of Corn Snake, also has a significant numbers of variations and gaps. This correlates with research that snakes have <a href="https://www.cell.com/cell/fulltext/S0092-8674(16)31310-1">developed mutations in Sonic Hedgehog</a> that over time, which has lead to their copy of Sonic Hedgehog to become degenerate, meaning that snakes no longer have limbs. Fossil records suggest that snakes had primordial limbs that became vestigial over time.</p>
+			<p>Using Bioinformatics we can speculate relationships not normally  observed in organisms</p>
+		<p>We can also use our aligned fasta file for additional purposes, such as the generation of a phylogenetic tree to examine the relative relationships between the genes of disparate organisms</p>
+		<h2>List of MSA Tools</h2>
+		<ul>
+			<li><a href="https://www.ebi.ac.uk/Tools/msa/muscle/"> MUSCLE </a> </li>
+			<li><a href="https://www.ebi.ac.uk/Tools/msa/mafft/">MAFFT</a></li>
+					<li><a href="https://www.ebi.ac.uk/Tools/msa/clustalo/"> Clustal Omega </a></li> 
+					<li><a href="https://www.ebi.ac.uk/Tools/msa/tcoffee/"> TCoffee</a></li>
+
+		</ul> 
+</body>   

@@ -1,0 +1,68 @@
+
+body{
+	width: 90%;
+	margin: 5rem;
+	font: monospace;
+	background-color: #000000;
+	/* background-image: linear-gradient(180deg, #3C341F, #000000 );
+	*/
+	color: khaki;
+	list-style: decimal inside;
+	}
+
+
+h1{
+	font-size: 1.75em;
+	color: #0000c2;
+	}
+
+h2{
+	font-size: 1.75em;
+	color: #18974e;
+
+	}
+
+h3{
+	font-size: 1.5em;
+	color: #8868b3;
+	}
+
+h4{
+	font-size: 1.5em;
+	color: #faf0a5;
+	}
+
+a{	
+	color: #c35359; 
+	}
+code{
+	color:#33ff00;
+}
+p{
+	font-size:1em;
+	color: khaki;
+}
+
+.codebox {
+        align: center;
+        width: 75%;
+        border: 1px solid #FFB000;
+        margin-left: 0;
+        margin-right: 0;
+        font-size:1em;
+        background-color: #201602;
+        font: monospace
+        color: khaki;
+
+}
+
+.quotebox{
+        align:center;
+        width: 60%;
+        margin-left: auto;
+        margin-right:auto;
+        font-size:1em;
+        font: monospace;
+        color: khaki;
+}
+

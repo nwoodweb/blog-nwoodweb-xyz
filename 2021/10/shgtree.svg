@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="879px" height="615px" viewBox="0 0 879 615"
+xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect x="0" y="0" width="879" height="615" fill="none" stroke="rgb(192,192,192)" stroke-width="1"/>
+<text x="670" y="611" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">tr|A0A6P9AJE1|A0A6P9AJE1_PANGU</text>
+<text x="286" y="515" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|Q62226|SHH_MOUSE</text>
+<text x="286" y="418" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|Q15465|SHH_HUMAN</text>
+<text x="273" y="322" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|Q91035|SHH_CHICK</text>
+<text x="451" y="226" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|Q92000|SHH_XENLA</text>
+<text x="602" y="129" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|P79682|SHH_AMBCH</text>
+<text x="670" y="33" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">sp|Q92008|SHH_DANRE</text>
+<line x1="283" y1="510" x2="283" y2="510" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="283" y1="414" x2="283" y2="414" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="283" y1="510" x2="283" y2="414" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="542" y1="124" x2="599" y2="124" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="542" y1="28" x2="668" y2="28" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="542" y1="124" x2="542" y2="28" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="304" y1="221" x2="448" y2="221" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="304" y1="76" x2="542" y2="76" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="304" y1="221" x2="304" y2="76" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="261" y1="317" x2="271" y2="317" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="261" y1="149" x2="304" y2="149" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="261" y1="317" x2="261" y2="149" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="247" y1="462" x2="283" y2="462" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="247" y1="233" x2="261" y2="233" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="247" y1="462" x2="247" y2="233" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="11" y1="607" x2="668" y2="607" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="11" y1="347" x2="247" y2="347" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="11" y1="607" x2="11" y2="347" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<text x="9" y="15" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">BioNJ 79 sites Poisson</text>
+<line x1="740" y1="13" x2="835" y2="13" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="740" y1="17" x2="740" y2="9" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="835" y1="17" x2="835" y2="9" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<text x="777" y="11" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.02</text>
+</svg>

@@ -1,0 +1,9 @@
+User-agent: * 
+Disallow: /avatar.gif$
+
+
+User-agent: AdsBot-Google
+Disallow: /
+
+
+Sitemap: https://blog.nwoodweb.xyz/sitemap.xml

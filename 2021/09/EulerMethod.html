@@ -1,0 +1,47 @@
+<head>
+        <meta charset = "UTF-8">
+        <title>Good Web Design and Server Sources</title>
+        <link rel = "stylesheet"
+                type = "text/css"
+                href = "https://blog.nwoodweb.xyz/styleblog.css"
+
+                />
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+
+<body>
+	<h1> Use of Euler's Method in Numerical Analysis</h1>
+	<h2>What is Euler's Method?</h2>
+	<p>The vast majority of differential equations cannot be solved by guessing or with integrative techniques in an elementary fashion. We must develop a means to approximating these solutions.</p>
+	<p>This method of numerical approximation was developed by Leonhardt Euler, a Swiss mathemetician</p> 
+	<p>This method involves the development of a polygonal curve that roughly resembles the differential equation that we wish to approximate. This is accomplished as shown below </p>
+
+	<p>$$ y' = f(x,y) \ with \ y(x) = y_{i} $$ </p>
+	<p>$$ y_{i+1} = y_i + h*f(x_i,y_i) $$ </p>
+	<p>$$ x = x_i + h $$ </p>
+
+	<h3>Example</h3>
+		<p>Given the following information: </p>
+		<p>$$\frac{dy}{dx} = xy , \  y(0) = 1, \   h = .1 $$ for two steps </p>
+		<p>$$ y_{.1} = 1 + .1(0)  = 1 $$ </p>
+		<p>$$ y_{.2} = 1 + .1((.1)(1)) = 1.01 $$ </p>
+
+		<p> y(2) is approximately 1.01 </p>
+	<h2>Computing Euler's Method, Pseudocode Example</h2>
+		<pre style="align:left">
+		<code style="display:block;white-space:pre-wrap;">
+		<b>float </b> xinit, yinit, xVal stepSize
+		<b>equation</b> diffEq 
+		<b>function</b> EulerMethod(xinit,yinit,stepSize,diffEq):
+			<b>for</b> iteration in range(xVal):			#iterate to account for stepSize
+				yTemp = yinit + (stepSize * diffEq)	#Euler Function
+				yinit = yTemp				#set yinit to yTemp
+				xinit = xinit + stepSize 		#set xinit for next iteration 
+				return ynew
+			print(xVal,ynew) 
+		<code>		
+		</pre>
+</body>
